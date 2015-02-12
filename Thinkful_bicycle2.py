@@ -72,6 +72,6 @@ B3=Bicycle('b3', 3, 800)
 
 shop = Bike_shop('shop1', 0.20, B1,B2,B3)
 
-c1.available_bikes(shop.margin, shop.bike) # the reason that we use 'shop.bike', is related to explanation 1!!!
+c1.available_bikes(shop.margin, shop.bike)
 c1.buy_bike(B1, shop.margin)
 shop.sell(c1, B1)
